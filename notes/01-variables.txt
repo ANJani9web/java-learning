@@ -1,0 +1,49 @@
+Q : What is command for running the java file ?
+Ans : i) javac src/variablesDemo.java -d bin
+      ii) java -cp bin variablesDemo
+
+Q : What is java class naming convention ?
+Ans : Class names should start with a capital letter and Also the file name should be:
+
+Q: What is javac?
+Ans: Java Compiler.
+     It converts: App.java to javac to App.class
+
+Q : Q: What is App.class?
+Ans: Compiled Java bytecode generated from a .java file.
+     Example:  App.java - to with help of javac -> App.class
+
+Q: What is JVM?
+
+Ans: Java Virtual Machine.
+     It executes .class files.
+     Flow: App.java -> javac -> App.class -> JVM -> Output
+
+Q : What is variable?
+Ans : A variable is a named location in memory that stores a value.
+
+Q : What does this syntax mean : String name = "Anjani"; ?
+Ans : String is data type ("I want to store text."), name is variable, = is assignment operator, Anjani is value of variable.
+
+Q : What are common data types ?
+Ans : i) String : for storing text, ii) int : for storing integer value, iii) double : for storing decimal value, iv) boolean : for storing bool value(true or false)
+
+Q : How to print variables ?
+Ans : i) System.out.println("Anjani");
+      ii) System.out.println(name);
+      Notice: With quotes → text literal and Without quotes → variable (both print same but both are not same)
+
+Q: What is the difference between System.out.println("Anjani"); and System.out.println(name); ?
+Ans: "Anjani" is a string literal. and  name is a variable.
+      Both may print the same output but they are different.
+
+Q: What does age = age + 1; mean?
+Ans: Take current value of age.
+      Add 1.
+      Store the result back into age.
+      Example:
+      age = 22
+      age = age + 1
+      age = 23
+
+Q : 
