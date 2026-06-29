@@ -1,0 +1,84 @@
+Q: What is Scanner?
+Ans: Scanner is a helper class used to read input from a source such as the keyboard.
+    Example: Scanner sc = new Scanner(System.in);
+
+Q: What does nextLine() do?
+Ans: Reads a complete line of text entered by the user.
+    Example: String name = sc.nextLine();
+
+Q: What does nextInt() do?
+Ans: Reads an integer value entered by the user.
+    Example: int age = sc.nextInt();
+
+Q: What happens if nextInt() receives non-integer input?
+Ans: Java throws InputMismatchException.
+Example: Input: 34abc
+        Code: int age = sc.nextInt();
+        Output: InputMismatchException
+
+Q: Can nextLine() read integers?
+Ans: Yes.
+    nextLine() reads everything as text (String).
+    Example: Input: 123
+    Result: "123"
+
+Q: What does sc.close() do?
+Ans: Closes the Scanner and releases associated resources.
+    Good practice after finishing input operations.
+
+Q : What is range of int?
+Ans : Java int = 4 bytes = 32 bits : -2,147,483,648 to 2,147,483,647
+
+Q: What happens when we do String + int ? 
+Ans: Java converts the int to String and concatenates them.
+    Example: String age = "22";
+    System.out.println(age + 10);
+    Output: 2210
+
+Q: How to convert String to int?
+Ans: int age = Integer.parseInt("22");
+    Result: age = 22
+
+Q: What is System.in?
+Ans: System.in represents the standard input stream (usually the keyboard).
+   Flow: Keyboard -> System.in
+
+Q: What does new mean?
+Ans: new creates a new object.
+    Example: Scanner sc = new Scanner(System.in);
+    Creates a new Scanner object.
+
+Q: What is System.out?
+Ans: System.out represents the standard output stream (usually the console/screen).
+    Flow: Program -> to System.out -> Screen
+
+Q: What is the difference between nextLine() and nextInt()?
+Ans:nextLine(): - Reads an entire linr
+                - Returns a String
+    
+    Example:
+    String name = sc.nextLine();
+    
+    nextInt(): - Reads an integer value, - Returns an int
+
+    Example:
+    int age = sc.nextInt();
+
+Q: What does this line do?
+Scanner sc = new Scanner(System.in);
+Ans:
+1. System.in represents keyboard input.
+2. new Scanner(...) creates a Scanner object.
+3. sc stores the Scanner object.
+Flow: Keyboard -> System.in -> Scanner -> Program
+
+Q: What is an object?
+Ans: An object is an instance created from a class.
+    Example: Scanner sc = new Scanner(System.in);
+    Here Scanner is a class and sc is an object.
+
+Q: What is Integer.parseInt()?
+Ans: Converts a String into an int.
+    Example: String ageText = "22";
+    int age = Integer.parseInt(ageText);
+    Result: age = 22

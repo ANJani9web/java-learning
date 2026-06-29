@@ -19,6 +19,10 @@ Ans: Java Virtual Machine.
      It executes .class files.
      Flow: App.java -> javac -> App.class -> JVM -> Output
 
+Q: What is the difference between compilation and execution?
+Ans: Compilation: App.java -> using javac to -> App.class
+     Execution: App.class -> java -> Output
+
 Q : What is variable?
 Ans : A variable is a named location in memory that stores a value.
 
