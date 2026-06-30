@@ -17,3 +17,19 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 # java-learning
+
+## Completed Topics
+- [x] Java Setup
+- [x] Variables
+- [x] Scanner Input
+- [ ] If-Else
+- [ ] Loops
+- [ ] Methods
+- [ ] Arrays
+- [ ] OOP
+- [ ] Collections
+- [ ] Exception Handling
+- [ ] Streams
+- [ ] Spring Boot
+
+This repository contains my Java learning journey with code examples and notes.
