@@ -1,4 +1,3 @@
-package loops;
 
 public class ForLoopDemo {
 
